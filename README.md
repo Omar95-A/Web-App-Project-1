@@ -1,5 +1,5 @@
 # Website-Project-4
-Advanced website using HTML &amp; CSS 
+Advanced website using HTML, CSS, Javascript, JQuery and Sass.
 
 For work on this website i used template: https://elzero.org/html-css-template-4-preview/
 
