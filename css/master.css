@@ -235,3 +235,15 @@ ul {
     background-color: var(--blue-alt-color);
     cursor: pointer;
 }
+@media (max-width: 767px) {
+    .welcome .body > div:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 767px) {
+    .wrapper .welcome .avatar {
+        left: 0;
+    }
+}
+
+/* End Welcome */
