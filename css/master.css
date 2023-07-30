@@ -189,3 +189,19 @@ ul {
     margin-right: 20px;
     margin-bottom: 20px;
 }
+@media (max-width: 767px) {
+    .wrapper {
+        grid-template-columns: minmax(200px, 1fr);
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .wrapper-3 {
+        grid-template-columns: minmax(200px, 1fr);
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+}
