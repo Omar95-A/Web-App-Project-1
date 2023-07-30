@@ -221,3 +221,17 @@ ul {
     border-radius: 50%;
     transition: 0.3s;
 }
+.wrapper .welcome .body {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.wrapper .welcome .body > div {
+    flex: 1; 
+}
+.wrapper .welcome .visit {
+    margin: 0px 15px 15px auto;       
+}
+.wrapper .welcome .visit:hover {
+    background-color: var(--blue-alt-color);
+    cursor: pointer;
+}
