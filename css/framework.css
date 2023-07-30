@@ -1,0 +1,310 @@
+:root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+}
+/* Start Box */
+.d-flex {
+    display: flex;
+}
+.f-d-rw {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.f-1 {
+    flex: 1;
+}
+.d-flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.align-center {
+    align-items: center;
+}
+.space-between {
+    justify-content: space-between;
+}
+.f-basis-48 {
+    flex-basis: 48%;
+}
+.f-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.f-gr {
+    flex-grow: 1;
+}
+.d-grid {
+    display: grid;
+}
+.d-grid-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+}
+.gap-20 {
+    gap: 20px;
+}
+.gap-10 {
+    gap: 10px;
+}
+@media (max-width: 767px) {
+    .block-mobile {
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    .hide-mobile {
+        display: none;
+    }
+}
+.d-block {
+    display: block;
+}
+.d-inline-block {
+    display: inline-block;
+}
+/* End Box */
+/* Start Components */
+.w-full {
+    width: 100%;
+}
+.h-full {
+    height: 100%;
+}
+.w-fit {
+    width: fit-content;
+}
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* End Components */
+/* Start Padding & Margin */
+.p-5 {
+    padding: 5px;
+}
+.p-10 {
+    padding: 10px;
+}
+.pb-10 {
+    padding-bottom: 10px;
+}
+.pt-10 {
+    padding-top: 10px;
+}
+.pl-10 {
+    padding-left: 10px;
+}
+.p-15 {
+    padding: 15px;
+}
+.pt-15 {
+    padding-top: 15px;
+}
+.pr-15 {
+    padding-right: 15px;
+}
+.pb-15 {
+    padding-bottom: 15px;
+}
+.pl-15 {
+    padding-left: 15px;
+}
+.p-20 {
+    padding: 20px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+.pr-20 {
+    padding-right: 20px;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+.pl-20 {
+    padding-left: 20px;
+}
+
+.m-0 {
+    margin: 0;
+}
+.mt-0 {
+    margin-top: 0;
+}
+.mt-5 {
+    margin-top: 5px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mt-15 {
+    margin-top: 15px;
+}
+.mr-15 {
+    margin-right: 15px;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.ml-15 {
+    margin-left: 15px;
+}
+.m-20 {
+    margin: 20px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mt-25 {
+    margin-top: 25px;
+}
+.mb-25 {
+    margin-bottom: 25px;
+}
+.ml-40 {
+    margin-left: 40px;
+}
+
+
+/* End Padding & Margin */
+/* Start Color */
+.bg-white {
+    background-color: white;
+}
+.bg-blue {
+    background-color: var(--blue-color);
+}
+.bg-green {
+    background-color: var(--green-color);
+}
+.bg-orange {
+    background-color: var(--orange-color);
+}
+.bg-red {
+    background-color: var(--red-color);
+}
+.bg-eee {
+    background-color: #eee;
+}
+.bg-ddd {
+    background-color: #ddd;
+}
+.c-black {
+    color: black;
+}
+.c-blue {
+    color: var(--blue-alt-color);
+}
+.c-red {
+    color: var(--red-color);
+}
+.c-gray {
+    color: var(--grey-color);
+}
+.c-green {
+    color: var(--green-color);
+}
+.c-orange {
+    color: var(--orange-color);
+}
+.c-white {
+    color: white;
+}
+/* End Color */
+/* Start position */
+.p-relative {
+    position: relative;
+}
+.p-absolute {
+    position: absolute;
+}
+.p-fixed {
+    position: fixed;
+}
+/* Start Font */
+.txt-c {
+    text-align: center;
+}
+.txt-l {
+    text-align: left;
+}
+.txt-r {
+    text-align: right;
+}
+.fs-13{
+    font-size: 13px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.fs-25 {
+    font-size: 25px;
+}
+.fs-30 {
+    font-size: 30px;
+}
+.fw-bold {
+    font-weight: bold;
+}
+.cap {
+    text-transform: capitalize;
+}
+.delete-f {
+    text-decoration: line-through;
+    opacity: 0.3;
+}
+
+@media (max-width: 767px) {
+    .txt-c-mobile {
+        text-align: center;
+    }
+}
+
+
+/* End Font */
+/* Start Border */
+.out-none {
+    outline: none;
+}
+.b-none {
+    border: none;
+}
+.rad-6 {
+    border-radius: 6px;
+}
+.rad-10 {
+    border-radius: 10px;
+}
+/* End Border */
+/* Start Button */
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+/* End Button */
+
+.lh{
+    line-height: 1.8;
+}
