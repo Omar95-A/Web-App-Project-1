@@ -205,3 +205,19 @@ ul {
         margin-bottom: 10px;
     }
 }
+.wrapper .welcome {
+    overflow: hidden;
+}
+.wrapper .welcome img {
+    width: 200px;
+}
+.wrapper .welcome .avatar {
+    width: 65px;
+    height: 65px;
+    position: relative;
+    left: 20px;
+    top: -34px;
+    border: 4px solid white;
+    border-radius: 50%;
+    transition: 0.3s;
+}
