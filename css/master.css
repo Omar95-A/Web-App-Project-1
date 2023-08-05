@@ -283,3 +283,17 @@ ul {
 .yearlyTargets .target .icons i {
     font-size: 30px;
 }
+.yearlyTargets .target .progress {
+    height: 5px;
+}
+.yearlyTargets .target .progress > span  {
+    /* background-color: var(--blue-color); */
+    height: 100%;
+    width: 100%;
+    
+}
+.yearlyTargets .target .progress span span {
+    padding: 3px 6px;
+    bottom: 22px;
+    right: -21px;
+}
