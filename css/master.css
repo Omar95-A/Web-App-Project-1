@@ -247,3 +247,17 @@ ul {
 }
 
 /* End Welcome */
+/* Start Quick Draft */
+.quickDraft textarea {
+    resize: none;
+    min-height: 150px;
+}
+.wrapper .quickDraft input[type="submit"] {
+    margin: 0px 15px 0 auto; 
+    transition: 0.3s;
+}
+.wrapper .quickDraft input[type="submit"]:hover {
+    background-color: var(--blue-alt-color);
+    cursor: pointer;
+}
+/* End Quick Draft */
