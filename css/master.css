@@ -261,3 +261,25 @@ ul {
     cursor: pointer;
 }
 /* End Quick Draft */
+/* Start Yearly Targets */
+.yearlyTargets .target {}
+.yearlyTargets .target .icons {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+}
+.yearlyTargets .target:first-of-type .icons,
+.yearlyTargets .target:first-of-type .progress {
+    background-color: rgb(0 117 255 / 20%);
+}
+.yearlyTargets .target:nth-of-type(2) .icons,
+.yearlyTargets .target:nth-of-type(2) .progress {
+    background-color: rgb(245 158 11 / 20%);
+}
+.yearlyTargets .target:last-of-type .icons,
+.yearlyTargets .target:last-of-type .progress {
+    background-color: rgb(34 197 94 / 20%);
+}
+.yearlyTargets .target .icons i {
+    font-size: 30px;
+}
