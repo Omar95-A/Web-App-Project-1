@@ -297,3 +297,24 @@ ul {
     bottom: 22px;
     right: -21px;
 }
+.yearlyTargets .target .progress span span::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 9px;
+    border-style: solid;
+    border-color: transparent;
+    bottom: -17px;
+    right: 14px;
+}
+.yearlyTargets .target:first-of-type .progress span span::after {
+    border-top-color: var(--blue-color);
+}
+.yearlyTargets .target:nth-of-type(2) .progress span span::after {
+    border-top-color: var(--orange-color);
+}
+.yearlyTargets .target:last-of-type .progress span span::after {
+    border-top-color: var(--green-color);
+}
+/* End Yearly Targets */
