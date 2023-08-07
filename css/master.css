@@ -360,3 +360,25 @@ ul {
     }
 }
 /* End Latest News */
+/* Start Latest Tasks */
+.latest-tasks .tasks .task-row:not(:last-child) {
+    border-bottom: 1px solid #eee;
+}
+.latest-tasks .tasks .task-row .info {
+    flex: 1;
+}
+.latest-tasks .tasks .task-row .info h3 {
+    font-size: 16px;
+}
+.latest-tasks .tasks .task-row i {
+    transition: color 0.3s;
+}
+.latest-tasks .tasks .task-row i.delete:hover {
+    color: var(--red-color);
+    cursor: pointer;
+}
+.latest-tasks .tasks .task-row i.reback:hover {
+    color: var(--green-color);
+    cursor: pointer;
+}
+/* End Latest Tasks */
