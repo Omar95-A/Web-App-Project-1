@@ -318,3 +318,14 @@ ul {
     border-top-color: var(--green-color);
 }
 /* End Yearly Targets */
+/* Start Tickets Statistics */
+.tickets .boxes .box {
+    border: 1px solid #ccc;
+    width: calc(50% - 10px);
+}
+@media (max-width: 767px) {
+    .tickets .boxes .box {
+        width: 100%;
+    }
+}
+/* End Tickets Statistics */
