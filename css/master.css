@@ -329,3 +329,34 @@ ul {
     }
 }
 /* End Tickets Statistics */
+/* Start Latest News */
+.latest .news .new-row:not(:last-child) {
+    border-bottom: 1px solid #eee;
+}
+.latest .news .new-row .info {
+    flex: 2;
+}
+.latest .news .new-row img {
+    width: 100px;
+    margin-right: 15px;
+}
+.latest .news .new-row .info h3 {
+    font-size: 16px;
+}
+@media (max-width: 767px) {
+    .latest h2 {
+        text-align: center;
+    }
+    .new-row {
+        flex-direction: column;
+        text-align: center;
+    }
+    .new-row h3 {
+        margin-top: 10px;
+    }
+    .new-row p {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+}
+/* End Latest News */
