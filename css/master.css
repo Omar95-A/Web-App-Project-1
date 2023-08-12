@@ -417,4 +417,18 @@ ul {
     border: 2px solid white;
     z-index: 2;
 }
+.last ul li.done::before {
+    background-color: var(--blue-color);
+}
+.last ul li.current::before {
+    animation: change-color 0.8s infinite linear alternate;
+}
+@keyframes  change-color {
+    from {
+        background-color: var(--blue-color);
+    }
+    to {
+        background-color: white;
+    }
+}
 /* End Last Project Progress */
