@@ -431,4 +431,24 @@ ul {
         background-color: white;
     }
 }
+.last {
+    background-image: url("../imgs/project.png");
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    background-position: right bottom;
+}
+.last::after {
+    content: "";
+    background-color: rgb(255 255 255 / 90%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    border-radius: 10px;
+}
+.last ul, .last h2 {
+    z-index: 1;
+}
 /* End Last Project Progress */
