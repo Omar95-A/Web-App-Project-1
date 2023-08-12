@@ -382,3 +382,15 @@ ul {
     cursor: pointer;
 }
 /* End Latest Tasks */
+/* Start Latest Uploads */
+.uploads img {
+    width: 45px;
+    margin-right: 10px;
+}
+.uploads > div:not(:last-child) {
+    border-bottom: 1px solid #eee;
+}
+.uploads .info {
+    flex-grow: 1;
+}
+/* End Latest Uploads */
