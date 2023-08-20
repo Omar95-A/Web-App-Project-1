@@ -564,4 +564,18 @@ ul {
     border-left: 1px solid #eee;
     border-bottom: 1px solid #eee;
 }
+.projects table tbody tr td:last-child {
+    border-right: 1px solid #eee;
+}
+.projects table tbody tr:hover {
+    transition: 0.3s;
+    background-color: #fcf9f9;
+}
+@media (max-width: 767px) {
+    .projects {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}
 /* End Projects */
