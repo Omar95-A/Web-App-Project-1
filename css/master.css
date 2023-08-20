@@ -502,10 +502,26 @@ ul {
 }
 .social .card.instagram i, 
 .card.instagram .info a {
-    background-color: #c13584;
+    background-color: #e1306c;
 }
 .social .card.linkedin i, 
 .card.linkedin .info a {
     background-color: #0077b5;
+}
+.social .card.github {
+    background-color: rgb(51 51 51 / 57%);
+    color: #1da1f2;
+}
+.social .card.facebook {
+    background-color: rgb(24 119 242 / 20%);
+    color: #1da1f2;
+}
+.social .card.instagram {
+    background-color: rgb(255 0 0 / 20%);
+    color: #ff0000;
+}
+.social .card.linkedin {
+    background-color: rgb(0 119 181 / 20%);
+    color: #0077b5;
 }
 /* End Social Media Stats */
