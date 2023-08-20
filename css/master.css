@@ -549,4 +549,19 @@ ul {
     border-radius: 50%;
     border: 3px solid white;
 }
+.projects table img:not(:first-child) {
+    margin-left: -20px;
+}
+.projects table thead tr td {
+    padding: 15px;
+    border-left: 1px solid #eee;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.projects table tbody tr td {
+    border: none;
+    padding: 15px;
+    border-left: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
 /* End Projects */
