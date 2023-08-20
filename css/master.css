@@ -483,3 +483,29 @@ ul {
     min-height: 140px;
 }
 /* End Latest Post */
+/* Start Social Media Stats */
+.social .card i {
+    width: 54px;
+    height: 54px;
+    transition: 0.3s;
+}
+.social .card i:hover {
+    transform: rotate(10deg);
+}
+.social .card.github i, 
+.card.github .info a {
+    background-color: #333;
+}
+.social .card.facebook i, 
+.card.facebook .info a {
+    background-color: #1877f2;;
+}
+.social .card.instagram i, 
+.card.instagram .info a {
+    background-color: #c13584;
+}
+.social .card.linkedin i, 
+.card.linkedin .info a {
+    background-color: #0077b5;
+}
+/* End Social Media Stats */
