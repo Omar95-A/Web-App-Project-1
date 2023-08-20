@@ -531,3 +531,22 @@ ul {
     color: #0077b5;
 }
 /* End Social Media Stats */
+/* Start Projects */
+.projects {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.projects .responsive-table {
+    overflow-x: auto;
+}
+.projects table {
+    min-width: 1000px;
+    border-spacing: 0; 
+}
+.projects img {
+    width: 37px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+/* End Projects */
