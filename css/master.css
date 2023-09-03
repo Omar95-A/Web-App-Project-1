@@ -594,3 +594,25 @@ ul {
     position: relative;
     transition: 0.3s;
 }
+.toggle-switch:hover {
+    cursor: pointer;
+}
+.toggle-switch::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f00d";
+    font-weight: 900;
+    position: absolute;
+    background-color: white;
+    color: #ccc;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+    right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
