@@ -579,3 +579,18 @@ ul {
     }
 }
 /* End Projects */
+/*  -  End Dashboard Page   -  */
+/*  -  Start Settings Page  -  */
+/* Start Site Control */
+.toggle-checkbox {
+    -webkit-appearance: none;
+    appearance: none;
+}
+.toggle-switch {
+    background-color: #ccc;
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    position: relative;
+    transition: 0.3s;
+}
