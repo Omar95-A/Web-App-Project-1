@@ -640,3 +640,10 @@ ul {
 .general-info form input.email {
     width: calc(100% - 80px);
 }
+.general-info form input:disabled {
+    cursor: no-drop;
+    background-color: #f0f4f8;
+    color: #bbb;
+}
+
+/* End General Info */
