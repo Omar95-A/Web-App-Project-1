@@ -632,3 +632,11 @@ ul {
     min-height: 150px;
 }
 /* End Site Control */
+/* Start General Info */
+.general-info form input {
+    border: 1px solid #ccc;
+    height: 40px;
+}
+.general-info form input.email {
+    width: calc(100% - 80px);
+}
