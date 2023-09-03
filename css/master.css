@@ -616,3 +616,19 @@ ul {
     align-items: center;
     transition: 0.3s;
 }
+.toggle-checkbox:checked + .toggle-switch {
+    background-color: var(--green-color);
+}
+.toggle-checkbox:checked + .toggle-switch::before {
+    content: "\f00c";
+    color: var(--green-color);
+    right: 5px;
+}
+.site-control textarea {
+    outline: none;
+    border-color: #ccc;
+    border-radius: 8px;
+    resize: none;
+    min-height: 150px;
+}
+/* End Site Control */
