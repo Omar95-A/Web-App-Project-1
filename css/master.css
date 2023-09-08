@@ -684,3 +684,23 @@ ul {
     color: black;
 }
 /* End Social Info */
+/* Start Widgets Control */
+.widgets-control .control input {
+    -webkit-appearance: none;
+    appearance: none;
+}
+.widgets-control .control label {
+    position: relative;
+}
+.widgets-control .control label::before {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    width: 15px;
+    height: 15px;
+    top: 0;
+    left: -30px;
+    border: 2px solid var(--grey-color);
+    border-radius: 6px;
+}
+/* End Widgets Control */
