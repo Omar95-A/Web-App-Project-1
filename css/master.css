@@ -658,3 +658,14 @@ ul {
     background-color: var(--blue-alt-color);
 }
 /* End Security Info */
+/* Start Social Info */
+.social-info input {
+    height: 40px;
+    background-color: #f6f6f6;
+    border-color: #ddd;
+    border-width: 1px;
+    border-style: solid;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* End Social Info */
