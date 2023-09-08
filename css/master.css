@@ -725,4 +725,13 @@ ul {
 .widgets-control .control input[type="checkbox"]:checked + label::after {
     transform: scale(1) rotate(360deg);
 }
+.widgets-control .control input[type="checkbox"]:checked + label::before {
+    border: 2px solid var(--blue-color);
+}
+.widgets-control label:hover::before {
+    border: 2px solid var(--blue-color);
+}
+.widgets-control label:hover {
+    cursor: pointer;
+}
 /* End Widgets Control */
