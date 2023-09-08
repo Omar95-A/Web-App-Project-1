@@ -645,5 +645,16 @@ ul {
     background-color: #f0f4f8;
     color: #bbb;
 }
-
 /* End General Info */
+/* Start Security Info */
+.security-info > div:not(:last-child) {
+    border-bottom: 1px #eee solid;
+}
+.security-info div a.change {
+    background-color: var(--blue-color);
+    transition: 0.3s;
+}
+.security-info div a.change:hover {
+    background-color: var(--blue-alt-color);
+}
+/* End Security Info */
