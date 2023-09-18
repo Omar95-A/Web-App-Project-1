@@ -735,3 +735,27 @@ ul {
     cursor: pointer;
 }
 /* End Widgets Control */
+/* Start Backup Manager */
+.backup-manager input {
+    -webkit-appearance: none;
+    appearance: none;
+}
+.backup-manager .input-radio-1 label {
+    position: relative;
+    margin-left: 40px;
+}
+.backup-manager .input-radio-1 label::before {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    width: 15px;
+    height: 15px;
+    top: 0;
+    left: -30px;
+    border: 2px solid var(--grey-color);
+    border-radius: 50%;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
