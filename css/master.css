@@ -838,3 +838,17 @@ ul {
     background-color: var(--blue-color);
     border-radius: 10px;
 }
+.general-information .image .stars {
+    margin-top: 33px;
+}
+.general-information .info .box h4 {
+    min-width: 100%;
+    padding: 0;
+}
+.general-information .info .box .txt {
+    min-width: 250px;
+    padding: 15px 0 0;
+}
+.general-information .info .box:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
