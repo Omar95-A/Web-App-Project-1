@@ -807,3 +807,18 @@ ul {
 }
 /* End Backup Manager */
 /*  -  End Settings Page   -  */
+/*  -  Start Profile Page   -  */
+/* Start General Information */
+.general-information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.general-information .image img {
+    width: 100px;
+}
+.general-information .image {
+    flex-basis: 25%;
+    text-align: center;
+    width: fit-content;
+}
