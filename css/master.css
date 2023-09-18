@@ -822,3 +822,19 @@ ul {
     text-align: center;
     width: fit-content;
 }
+.general-information .info  {
+    flex-basis: 75%;
+    border-left: 1px solid #ddd;
+}
+.general-information .image .progress {
+    width: 125px;
+    height: 6px;
+    background-color: #ddd;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.general-information .image .progress span {
+    height: 6px;
+    background-color: var(--blue-color);
+    border-radius: 10px;
+}
