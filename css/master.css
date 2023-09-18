@@ -759,3 +759,18 @@ ul {
     align-items: center;
     justify-content: center;
 }
+.backup-manager .input-radio-1 label::after {
+    content: "";
+    position: absolute;
+    background-color: var(--blue-alt-color);
+    width: 11px;
+    height: 11px;
+    top: 4px;
+    left: -26px;
+    border-radius: 50%;
+    transition: 0.3s;
+    transform: scale(0);
+}
+.backup-manager .input-radio-1 input[type="radio"]:checked + label::after {
+    transform: scale(1);
+}
