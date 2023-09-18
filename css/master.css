@@ -852,3 +852,12 @@ ul {
 .general-information .info .box:not(:last-child) {
     border-bottom: 1px solid #ddd;
 }
+.general-information .info .box {
+    transition: 0.3s;
+}
+.general-information .info .box:hover {
+    background-color: #fdf8f8;
+}
+.general-information .info .box:first-child:hover {
+    border-top-right-radius: 10px;
+}
