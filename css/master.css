@@ -861,3 +861,24 @@ ul {
 .general-information .info .box:first-child:hover {
     border-top-right-radius: 10px;
 }
+.general-information .info .box:last-child:hover {
+    border-bottom-right-radius: 10px;
+}
+.general-information .info .box .txt:last-child {
+    padding: 10px 0 0;
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 991px) {
+    .general-information {
+        flex-direction: column; 
+    }
+    .general-information .info .box {
+        text-align: center;
+        justify-content: center;
+    }
+    .general-information .image {
+        width: 300px;
+    }
+}
+/* End General Information */
