@@ -790,3 +790,20 @@ ul {
     text-align: center;
     transition: 0.3s;
 }
+.backup-manager .input-radio-2 > div label {
+    cursor: pointer;
+}
+.backup-manager .input-radio-2 input[type="radio"]:checked + div {
+    color: var(--blue-color);
+    border-color:  var(--blue-color);
+}
+@media (max-width: 767px) {
+    .backup-manager .input-radio-2 {
+        flex-wrap: wrap;
+    }
+    .backup-manager .input-radio-2 > div {
+        width: 100%;
+    }
+}
+/* End Backup Manager */
+/*  -  End Settings Page   -  */
