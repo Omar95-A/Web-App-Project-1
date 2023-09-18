@@ -774,3 +774,19 @@ ul {
 .backup-manager .input-radio-1 input[type="radio"]:checked + label::after {
     transform: scale(1);
 }
+.backup-manager .input-radio-1 input[type="radio"]:checked + label::before {
+    border: 2px solid var(--blue-alt-color);
+}
+.backup-manager .input-radio-1 label:hover {
+    cursor: pointer;
+}
+.backup-manager .input-radio-1 {
+    border-bottom: 1px solid #ddd;
+}
+.backup-manager .input-radio-2 > div {
+    width: 33%;
+    border: 2px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
