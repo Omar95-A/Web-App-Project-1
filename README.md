@@ -2,7 +2,7 @@
 
 > Web application using HTML, CSS, Javascript, JQuery, and Sass. A web application called `Tech-Ak` that contains a number of pages such as Dashboard, Settings, Profile, Projects, Courses, Friends, Files and Plans pages.
 
-### <img src="https://emojis.slackmojis.com/emojis/images/1471045839/793/computerrage.gif?1471045839" align="center" width="28"/> Project In Progress ⚙️ 
+### Project In Progress ⚙️ 
 
 #### To try the website:
 
