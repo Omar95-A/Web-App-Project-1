@@ -6,7 +6,6 @@
 
 #### To try the website:
 
-For work on this Web Application I used template: [Web App Template](https://elzero.org/html-css-template-4-preview/).
+For work on this Web Application I used template: [Screenshots Of The Template]().
 
 #### Special Thanks To [Osama Elzero](https://elzero.org/category/courses/html-and-css-practice/).
-
