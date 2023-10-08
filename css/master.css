@@ -954,21 +954,36 @@ ul {
 /* End other Info */
 /*  -  End Profile Page   -  */
 /*  -  Start Projects Page   -  */
-.wrapper .elzero-dashboard .date {
+.wrapper .ak-dashboard .date {
     top: 10px;
     right: 12px;
 }
-.elzero-dashboard .images img {
+.ak-dashboard .images img {
     width: 48px;
     border-radius: 50%;
     border: 2px solid white;
     position: relative;
 }
-.elzero-dashboard .images img:hover {
+.ak-dashboard .images img:hover {
     cursor: pointer;
     z-index: 1;
 }
-.elzero-dashboard .images img:not(:first-child) {
+.ak-dashboard .images img:not(:first-child) {
     margin-left: -25px;
+}
+.ak-dashboard .boxes {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    justify-content: right;
+}
+.ak-dashboard .boxes span {
+    padding: 5px 8px;
+    font-size: 13px;
+    background-color: #eee;
+    margin: 5px;
+    border-radius: 6px;
+    width: fit-content; 
+}
+.ak-dashboard .info {
 }
 /*  -  End Projects Page   -  */
