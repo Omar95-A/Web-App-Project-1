@@ -902,4 +902,15 @@ ul {
     margin: 5px;
     border-radius: 6px;
 }
+
+.other-info .activities {
+    flex-grow: 2;
+}
+.other-info .activities .cards .card {
+    display: flex;
+    align-items: center;
+}
+.other-info .activities .cards .card:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
 /* End other Info */
