@@ -952,3 +952,23 @@ ul {
     }
 }
 /* End other Info */
+/*  -  End Profile Page   -  */
+/*  -  Start Projects Page   -  */
+.wrapper .elzero-dashboard .date {
+    top: 10px;
+    right: 12px;
+}
+.elzero-dashboard .images img {
+    width: 48px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: relative;
+}
+.elzero-dashboard .images img:hover {
+    cursor: pointer;
+    z-index: 1;
+}
+.elzero-dashboard .images img:not(:first-child) {
+    margin-left: -25px;
+}
+/*  -  End Projects Page   -  */
