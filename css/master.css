@@ -986,4 +986,25 @@ ul {
 }
 .ak-dashboard .info {
 }
+.ak-dashboard .info .progress {
+    width: 250px;
+    height: 8px;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+.ak-dashboard .info .progress span {
+    height: 8px;
+    background-color: var(--red-color);
+    border-radius: 10px;
+}
+@media (max-width: 767px) {
+    .ak-dashboard .boxes {
+        flex-direction: column;
+        justify-content: left;
+    }
+    .ak-dashboard .info {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
 /*  -  End Projects Page   -  */
