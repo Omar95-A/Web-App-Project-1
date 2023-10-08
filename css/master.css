@@ -913,4 +913,18 @@ ul {
 .other-info .activities .cards .card:not(:last-child) {
     border-bottom: 1px solid #ddd;
 }
+.other-info .activities .cards .card img {
+    width: 65px;
+    height: 65px;
+    margin-right: 15px;
+}
+.other-info .activities .cards .card .text:nth-child(2) {
+    flex-grow: 2;
+}
+.other-info .activities .cards .card .text:nth-child(3) {
+    text-align: right;
+}
+.other-info .activities .cards .card span {
+    display: block;
+}
 /* End other Info */
