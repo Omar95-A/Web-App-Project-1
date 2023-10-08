@@ -882,3 +882,24 @@ ul {
     }
 }
 /* End General Information */
+/* Start other Info */
+.other-info {
+    display: flex;
+}
+.other-info .skills {
+    flex-grow: 1;
+}
+.other-info .skills ul li {
+    padding: 20px 0;
+}
+.other-info .skills ul li:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+.other-info .skills ul li span {
+    padding: 5px 8px;
+    font-size: 14px;
+    background-color: #eee;
+    margin: 5px;
+    border-radius: 6px;
+}
+/* End other Info */
