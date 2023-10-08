@@ -927,4 +927,28 @@ ul {
 .other-info .activities .cards .card span {
     display: block;
 }
+@media (max-width: 767px) {
+    .other-info {
+        flex-direction: column;
+    }
+    .other-info .skills ul {
+        text-align: center;
+    }
+    .other-info .activities .cards .card {
+        flex-direction: column;
+    }
+    .other-info .activities .cards .card,
+    .other-info .activities .cards .card .text {
+        text-align: center;
+    }
+    .other-info .activities .cards .card .text {
+        margin-top: 20px;
+    }
+    .other-info .activities .cards .card img {
+        margin-right: 0;
+    }
+    .other-info .activities .cards .card .text:nth-child(3) {
+        text-align: center;
+    }
+}
 /* End other Info */
