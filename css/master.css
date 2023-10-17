@@ -1007,3 +1007,19 @@ ul {
     }
 }
 /*  -  End Projects Page   -  */
+/*  -  Start Courses Page   -  */
+.courses img.avatar {
+    width: 70px;
+    height: 70px;
+    top: 15px;
+    left: 15px;
+    border: 2px solid white;
+    border-radius: 50%;
+    z-index: 2;
+}
+.courses .course img.image {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/*  -  End Courses Page   -  */
