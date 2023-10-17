@@ -1022,4 +1022,15 @@ ul {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+.courses .course .text {
+    border-bottom: 1px solid #ddd;
+}
+.courses .course a {
+    bottom: 46px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.courses .course .info span i {
+    margin-right: 5px;
+}
 /*  -  End Courses Page   -  */
