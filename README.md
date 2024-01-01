@@ -1,6 +1,6 @@
 # Web App Project 1
 
-> Web application using HTML, CSS, Javascript, JQuery, and Sass. A web application called `Tech-Ak` that contains a number of pages such as Dashboard, Settings, Profile, Projects, Courses, Friends, Files and Plans pages.
+> Web application using HTML, CSS, Javascript, JQuery, and Sass. A web application called `Tech-Ak` that contains a number of pages such as Dashboard, Settings, Profile, Projects, Courses, Friends, Files and Plans pages. To be clear, the images in this website are of people that do not exist. They are not real, they are from a site that offers images of fake people AI generated. The names are also fake names.
 
 ### Project In Progress ⚙️ 
 
