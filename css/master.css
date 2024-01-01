@@ -984,8 +984,6 @@ ul {
     border-radius: 6px;
     width: fit-content; 
 }
-.ak-dashboard .info {
-}
 .ak-dashboard .info .progress {
     width: 250px;
     height: 8px;
@@ -1034,3 +1032,24 @@ ul {
     margin-right: 5px;
 }
 /*  -  End Courses Page   -  */
+/*  <-(  Start Friends Page  )->  */
+.friends .friend .icons {
+    top: 10px;
+    left: 10px;
+}
+.friends .friend .icons i {
+    color: #666;
+    background-color: #eee;
+    border-radius: 50%;
+    padding: 10px;
+    transition: 0.3s;
+}
+.friends .friend .icons i:hover {
+    cursor: pointer;
+    color: white;
+    background-color: var(--blue-color);
+}
+.friends .friend .txt {
+    text-align: center;
+}
+/*  <-(  End Friends Page  )->  */
