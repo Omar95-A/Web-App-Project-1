@@ -1067,4 +1067,15 @@ ul {
     padding: 5px 0;
     font-size: 14px;
 }
+.friends .friend .info div i {
+    margin-right: 10px;
+}
+.friends .friend .info>span {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    font-size: 40px;
+    color: #ff00003d;
+}
 /*  <-(  End Friends Page  )->  */
