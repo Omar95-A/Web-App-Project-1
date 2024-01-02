@@ -1157,5 +1157,21 @@ ul {
 .files-info .file-info img {
     width: 64px;
     height: 64px;
+    transition: 0.3s;
+}
+.files-info .file-info img:hover {
+    transform: rotate(10deg);
+}
+.files-info .file-info .info {
+    border-top: 1px solid #ddd;
+}
+@media (max-width: 767px) {
+    .files {
+        flex-direction: column;
+    }
+
+    .files .files-statistics {
+        width: 100%;
+    }
 }
 /*  <-(  End Files Page  )->  */
