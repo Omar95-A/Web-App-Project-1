@@ -1079,3 +1079,16 @@ ul {
     color: #ff00003d;
 }
 /*  <-(  End Friends Page  )->  */
+/*  <-(  Start Files Page  )->  */
+.files {
+    flex-direction: row-reverse;
+    align-items: start;
+    flex: 2;
+}
+.files .files-statistics {
+    min-width: 260px;
+}
+.files .files-statistics .statistic {
+    border: 1px solid #ddd;
+}
+/*  <-(  End Files Page  )->  */
