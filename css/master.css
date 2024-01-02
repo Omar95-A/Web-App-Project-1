@@ -1142,4 +1142,20 @@ ul {
         transform: translateY(-8px);
     }
 }
+.files-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+.files-info .file-info>i {
+    top: 15px;
+    left: 15px;
+}
+.files-info .file-info>i:hover {
+    cursor: pointer;
+}
+.files-info .file-info img {
+    width: 64px;
+    height: 64px;
+}
 /*  <-(  End Files Page  )->  */
