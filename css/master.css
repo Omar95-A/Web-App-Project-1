@@ -1112,4 +1112,25 @@ ul {
 .files .files-statistics .statistic div:last-child {
     margin-left: auto;
 }
+.files .files-statistics a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 115px;
+    border-radius: 6px;
+    background-color: var(--blue-color);
+    transition: 0.3s;
+    margin-left: auto;
+    margin-right: auto;
+}
+.files .files-statistics a i {
+    margin-right: 10px;
+}
+.files .files-statistics a:hover {
+    background-color: var(--blue-alt-color);
+}
+.files .files-statistics a:hover i {
+    animation: up-down 0.9s linear backwards infinite;
+}
 /*  <-(  End Files Page  )->  */
