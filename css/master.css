@@ -1079,6 +1079,21 @@ ul {
     color: #ff00003d;
 }
 /*  <-(  End Friends Page  )->  */
+/*  <-(  Start Plans Page  )->  */
+.plans {}
+.plans .top {
+    border: 4px solid white;
+}
+.plans .top-free {
+    outline: 4px solid var(--green-color);
+}
+.plans .top-basic {
+    outline: 4px solid var(--blue-color);
+}
+.plans .top-premium {
+    outline: 4px solid var(--orange-color);
+}
+/*  <-(  End Plans Page  )->  */
 /*  <-(  Start Files Page  )->  */
 .files {
     flex-direction: row-reverse;
