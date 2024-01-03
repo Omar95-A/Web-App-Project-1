@@ -1108,6 +1108,29 @@ ul {
 .plans .features {
     padding: 10px 0;
 }
+.plans .features ul li {}
+.plans .features ul li {
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+.plans .features ul li i {
+    color: var(--red-color);
+    margin-right: 10px;
+}
+.plans .features ul li .yes {
+    color: var(--green-color);
+}
+.plans .features ul li .help {
+    color: var(--grey-color);
+    margin-left: auto;
+}
+.plans .features ul li .help:hover {
+    cursor: pointer;
+    color: var(--blue-alt-color);
+
+}
 /*  <-(  End Plans Page  )->  */
 /*  <-(  Start Files Page  )->  */
 .files {
