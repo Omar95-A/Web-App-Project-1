@@ -1093,6 +1093,21 @@ ul {
 .plans .top-premium {
     outline: 4px solid var(--orange-color);
 }
+.plans .top .price {
+    font-size: 40px;
+    width: fit-content;
+    margin: 0 auto;
+}
+.plans .top .price span {
+    top: 0;
+    left: -20px;
+}
+.plans .top .price span {
+    font-size: 25px;
+}
+.plans .features {
+    padding: 10px 0;
+}
 /*  <-(  End Plans Page  )->  */
 /*  <-(  Start Files Page  )->  */
 .files {
